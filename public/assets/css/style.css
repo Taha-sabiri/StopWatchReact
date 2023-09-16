@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: black;
+    color: #fff;
+}
+
+.timer{
+    font-size: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 50px white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: black;
+    color: chocolate ;
+}
+
+.btn button{
+    
+    margin:  30px 10px;
+    padding: 5px 40px ;
+    background: none;
+    border:0.5px  #fff solid;
+    border-radius: 20px;
+    color: white;
+}
